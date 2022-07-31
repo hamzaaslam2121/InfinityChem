@@ -1,6 +1,6 @@
 # InfinityChem for Minecraft 1.16.5
 
-##Premise
+## Premise
 Infinity Chem is a simple, yet diverse mod that adds fun new items in multiple categories such as tech and power generation using various elements from the beloved periodic table.
 The mod will be continuously updated to the best of my free availability.
 
