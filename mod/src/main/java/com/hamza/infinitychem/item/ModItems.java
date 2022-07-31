@@ -10,7 +10,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, InfinityChemMod.MOD_ID);
 
-    public static void register(){
+    public static void register(IEVENTBUS eventbus){
         
     }
 }
