@@ -1,3 +1,5 @@
 {
-  "item.infinitychem.potassiumingot": "Potassium"
+  "item.infinitychem.potassiumingot": "Potassium",
+  "block.infinitychem.potassium_ore": "Potassium Ore",
+  "itemGroup.infinityChemTab": "Infinity Chem"
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "infinitychem:block/potassium_ore"
+  }
+}

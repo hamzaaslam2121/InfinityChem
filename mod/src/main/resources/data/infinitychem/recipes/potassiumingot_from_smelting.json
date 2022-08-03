@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "infinitychem:potassium_ore"
+  },
+  "result": "infinitychem:potassiumingot",
+  "experience": 1.0,
+  "cookingtime": 100
+}

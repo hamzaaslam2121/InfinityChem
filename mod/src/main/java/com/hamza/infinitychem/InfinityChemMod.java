@@ -1,5 +1,6 @@
 package com.hamza.infinitychem;
 
+import com.hamza.infinitychem.block.ModBlocks;
 import com.hamza.infinitychem.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -33,6 +34,7 @@ public class InfinityChemMod
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
         // Register the enqueueIMC method for modloading
