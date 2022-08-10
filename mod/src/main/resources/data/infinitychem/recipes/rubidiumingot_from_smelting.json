@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "infinitychem:rubidium_ore"
+  },
+  "result": "infinitychem:rubidiumingot",
+  "experience": 1.0,
+  "cookingtime": 125
+}

@@ -9,6 +9,7 @@ public class ModItemGroup {
         public ItemStack createIcon() {
             return new ItemStack(ModItems.POTASSIUMINGOT.get());
         }
+
     };
 
 

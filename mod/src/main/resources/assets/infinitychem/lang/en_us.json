@@ -1,5 +1,14 @@
 {
-  "item.infinitychem.potassiumingot": "Potassium",
+  "item.infinitychem.potassiumingot": "Potassium Ingot",
+  "item.infinitychem.rubidiumingot": "Rubidium Ingot",
+  "item.infinitychem.caesiumingot": "Caesium Ingot",
+
   "block.infinitychem.potassium_ore": "Potassium Ore",
+  "block.infinitychem.rubidium_ore": "Rubidium Ore",
+  "block.infinitychem.caesium_ore": "Caesium Ore",
+
+  "block.infinitychem.potassium_block": "Potassium Block",
+  "block.infinitychem.rubidium_block": "Rubidium Block",
+  "block.infinitychem.caesium_block": "Caesium Block",
   "itemGroup.infinityChemTab": "Infinity Chem"
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinitychem:potassium_block"
+    }
+  ],
+  "result": {
+    "item": "infinitychem:potassiumingot",
+    "count": 9
+  }
+}

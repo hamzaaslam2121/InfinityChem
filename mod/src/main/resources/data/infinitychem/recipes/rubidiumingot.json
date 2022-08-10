@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinitychem:rubidium_block"
+    }
+  ],
+  "result": {
+    "item": "infinitychem:rubidiumingot",
+    "count": 9
+  }
+}

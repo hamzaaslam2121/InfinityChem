@@ -14,6 +14,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> POTASSIUMINGOT =
             ITEMS.register("potassiumingot", () -> new Item(new Item.Properties().group(ModItemGroup.INFINITYCHEM_GROUP)));
+    public static final RegistryObject<Item> RUBIDIUMINGOT =
+            ITEMS.register("rubidiumingot", () -> new Item(new Item.Properties().group(ModItemGroup.INFINITYCHEM_GROUP)));
+    public static final RegistryObject<Item> CAESIUMINGOT =
+            ITEMS.register("caesiumingot", () -> new Item(new Item.Properties().group(ModItemGroup.INFINITYCHEM_GROUP)));
 
     public static void register(IEventBus eventbus){
         ITEMS.register(eventbus);

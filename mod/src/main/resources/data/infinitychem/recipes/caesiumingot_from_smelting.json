@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "infinitychem:caesium_ore"
+  },
+  "result": "infinitychem:caesiumingot",
+  "experience": 1.0,
+  "cookingtime": 150
+}

@@ -22,7 +22,29 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> POTASSIUM_ORE =
             registerBlock("potassium_ore",
-                    () -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(5f)));
+                    () -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(3)));
+
+    public static final RegistryObject<Block> POTASSIUM_BLOCK =
+            registerBlock("potassium_block",
+                    () -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).setRequiresTool().harvestTool(ToolType.PICKAXE).hardnessAndResistance(3)));
+
+    public static final RegistryObject<Block> RUBIDIUM_ORE =
+            registerBlock("rubidium_ore",
+                    () -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).setRequiresTool().harvestTool(ToolType.PICKAXE).hardnessAndResistance(4)));
+
+    public static final RegistryObject<Block> RUBIDIUM_BLOCK =
+            registerBlock("rubidium_block",
+                    () -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).setRequiresTool().harvestTool(ToolType.PICKAXE).hardnessAndResistance(4)));
+
+    public static final RegistryObject<Block> CAESIUM_ORE =
+            registerBlock("caesium_ore",
+                    () -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(3).setRequiresTool().harvestTool(ToolType.PICKAXE).hardnessAndResistance(5)));
+
+    public static final RegistryObject<Block> CAESIUM_BLOCK =
+            registerBlock("caesium_block",
+                    () -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(3).setRequiresTool().harvestTool(ToolType.PICKAXE).hardnessAndResistance(5)));
+
+
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
