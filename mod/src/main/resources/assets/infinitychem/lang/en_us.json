@@ -10,5 +10,7 @@
   "block.infinitychem.potassium_block": "Potassium Block",
   "block.infinitychem.rubidium_block": "Rubidium Block",
   "block.infinitychem.caesium_block": "Caesium Block",
-  "itemGroup.infinityChemTab": "Infinity Chem"
+  "itemGroup.infinityChemTab": "Infinity Chem",
+  "tooltip.infinitychem.ChemGenerator":"Hold \u00A7eSHIFT\u00A7r for more Information!",
+  "tooltip.infinitychem.ChemGenerator.shift": "Generates FE from Infinity Chem ingots"
 }
