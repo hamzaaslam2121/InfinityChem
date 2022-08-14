@@ -19,10 +19,10 @@ import net.minecraftforge.energy.IEnergyStorage;
 import javax.annotation.Nullable;
 import java.util.List;
 
-public class ChemGenerator extends Block implements IEnergyStorage {
+public class ChemGenerator extends Block{
+    public ChemGenerator(){
 
-
-    @Override
+    }
     public ActionResultType onBlockActivated(BlockState state, World worldIn, BlockPos pos, PlayerEntity player, Hand handIn, BlockRayTraceResult hit) {
         if(!worldIn.isRemote()){
             if(handIn == Hand.MAIN_HAND){

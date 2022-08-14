@@ -1,10 +1,12 @@
 package com.hamza.infinitychem.block;
 
 import com.hamza.infinitychem.InfinityChemMod;
+import com.hamza.infinitychem.common.tags.InfinityChemTags;
 import com.hamza.infinitychem.item.ModItemGroup;
 import com.hamza.infinitychem.item.ModItems;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -43,6 +45,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> CAESIUM_BLOCK =
             registerBlock("caesium_block",
                     () -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(3).setRequiresTool().harvestTool(ToolType.PICKAXE).hardnessAndResistance(5)));
+
+    private boolean blockIsValidForResistance(BlockState clickedBlock){
+        return clickedBlock.isIn(InfinityChemTags.Blocks.CAESIUM_CLICKABLE_BLOCKS);
+    }
 
 
 
