@@ -10,6 +10,43 @@
   "block.infinitychem.potassium_block": "Potassium Block",
   "block.infinitychem.rubidium_block": "Rubidium Block",
   "block.infinitychem.caesium_block": "Caesium Block",
+
+  "item.infinitychem.potassium_sword": "Potassium Sword",
+  "item.infinitychem.rubidium_sword": "Rubidium Sword",
+  "item.infinitychem.caesium_sword": "Caesium Sword",
+
+  "item.infinitychem.potassium_pickaxe": "Potassium Pickaxe",
+  "item.infinitychem.rubidium_pickaxe": "Rubidium Pickaxe",
+  "item.infinitychem.caesium_pickaxe": "Caesium Pickaxe",
+
+  "item.infinitychem.potassium_axe": "Potassium Axe",
+  "item.infinitychem.rubidium_axe": "Rubidium Axe",
+  "item.infinitychem.caesium_axe": "Caesium Axe",
+
+  "item.infinitychem.potassium_shovel": "Potassium Shovel",
+  "item.infinitychem.rubidium_shovel": "Rubidium Shovel",
+  "item.infinitychem.caesium_shovel": "Caesium Shovel",
+
+  "item.infinitychem.potassium_hoe": "Potassium Hoe",
+  "item.infinitychem.rubidium_hoe": "Rubidium Hoe",
+  "item.infinitychem.caesium_hoe": "Caesium Hoe",
+
+  "item.infinitychem.potassium_boots": "Potassium Boots",
+  "item.infinitychem.potassium_chestplate": "Potassium Chestplate",
+  "item.infinitychem.potassium_leggings": "Potassium Leggings",
+  "item.infinitychem.potassium_helmet": "Potassium Helmet",
+
+  "item.infinitychem.rubidium_boots": "Rubidium Boots",
+  "item.infinitychem.rubidium_chestplate": "Rubidium Chestplate",
+  "item.infinitychem.rubidium_leggings": "Rubidium Leggings",
+  "item.infinitychem.rubidium_helmet": "Rubidium Helmet",
+
+  "item.infinitychem.caesium_boots": "Caesium Boots",
+  "item.infinitychem.caesium_chestplate": "Caesium Chestplate",
+  "item.infinitychem.caesium_leggings": "Caesium Leggings",
+  "item.infinitychem.caesium_Helmet": "Caesium Helmet",
+
+
   "itemGroup.infinityChemTab": "Infinity Chem",
   "tooltip.infinitychem.ChemGenerator":"Hold \u00A7eSHIFT\u00A7r for more Information!",
   "tooltip.infinitychem.ChemGenerator.shift": "Generates FE from Infinity Chem ingots"
