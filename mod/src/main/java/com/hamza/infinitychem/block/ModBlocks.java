@@ -46,6 +46,10 @@ public class ModBlocks {
             registerBlock("caesium_block",
                     () -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(3).setRequiresTool().harvestTool(ToolType.PICKAXE).hardnessAndResistance(5)));
 
+    //public static final RegistryObject<Block> CustomEnergyStorage =
+     //       registerBlock("generator",
+       //             () -> new Block(Block.Properties.create(Material.ROCK).harvestLevel(3).setRequiresTool().harvestTool(ToolType.PICKAXE).hardnessAndResistance(5)));
+
     private boolean blockIsValidForResistance(BlockState clickedBlock){
         return clickedBlock.isIn(InfinityChemTags.Blocks.CAESIUM_CLICKABLE_BLOCKS);
     }

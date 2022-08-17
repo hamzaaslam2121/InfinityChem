@@ -16,7 +16,7 @@ public class ModOreGeneration {
     public static void generateOres(final BiomeLoadingEvent event){
         for(OreType ore : OreType.values()){
             OreFeatureConfig oreFeatureConfig = new OreFeatureConfig(
-                    OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD,
+                    OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD, //ensures ores are only spawned as default next to stone like most vanilla ores
                     ore.getBlock().get().getDefaultState(), ore.getMaxVeinSize());
             ConfiguredPlacement<TopSolidRangeConfig> configuredPlacement = Placement.RANGE.configure(
                     new TopSolidRangeConfig(ore.getMinHeight(), ore.getMinHeight(), ore.getMaxHeight()));
