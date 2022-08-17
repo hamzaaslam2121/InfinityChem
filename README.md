@@ -1,4 +1,4 @@
-![](/imgasset/InfinityChem2.png)
+![](/imgasset/InfinityChem2.jpg)
 
 
 
