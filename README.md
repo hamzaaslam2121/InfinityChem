@@ -1,3 +1,7 @@
+![This is an image](infinitychem.png)
+
+
+
 # InfinityChem for Minecraft 1.16.5
 
 ## Premise
