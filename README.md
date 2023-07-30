@@ -13,7 +13,7 @@ Currently adds various new armour and weapons.
 
 Please do have experiment and have fun with these.
 
-Unfortunately, InfinityChem as of right now is unstable, however please do try it out and let me know of any suggestions with regards to anything (balancing or new items/blocks). Some textures appear to not work, and some have simply not been made as of yet. I am very amature at graphic design with practically 0 experience and which way to go about this. If you have any tips, be sure to send them my way!
+Please do try it out and let me know of any suggestions with regards to anything (balancing or new items/blocks). Some textures appear to not work, and some have simply not been made as of yet. I am very amature at graphic design with practically 0 experience and which way to go about this. If you have any tips, be sure to send them my way!
 
  *Current roadmap* : JEI integration, power generation (Forge Energy FE generation via generator using given metal ores and water), better ore generation.
 
